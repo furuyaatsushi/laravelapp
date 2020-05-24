@@ -27,6 +27,7 @@ class HelloController extends Controller
         $html = $head . tag('title', 'Hello/Index') .$style .
             $body
             . tag('h1', 'Index') . tag('p', 'this is Index page')
+            . '<a href="/hello/other">go to Other page</a>'
             . $end;
         return $html;
     }
