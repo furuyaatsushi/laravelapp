@@ -3,7 +3,7 @@
   <title>Hello/Index</title>
   <style>
   body {font-size:16px; color:#999;}
-  h1 {font-size:30pt; text-align:right; color:#eee; margin:-15px 0 -100px 0;}
+  h1 {font-size:100pt; text-align:right; color:#f6f6f6; margin:-50px 0 -100px 0;}
   </style>
 </head>
 <body>
