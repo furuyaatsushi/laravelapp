@@ -11,7 +11,7 @@
   <p>&#064;forディレクティブの例</p>
   <ol>
   @foreach($data as $item)
-  @if ($loop->forst)
+  @if ($loop->first)
   <p>データ一覧</p>
   @endif
   <li>No, {{$loop->iteration}}. {{$item}}</li>
